@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+#calculator {
+  width: 300px;
+  box-shadow: 10px 10px 50px 5px rgba(0, 0, 0, 0.548);
+  border-radius: 20px;
+}
+#heading {
+  height: 30px;
+  background-color: rgb(216, 216, 216);
+  width: 100px;
+  margin: 10px auto;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#light {
+  cursor: pointer;
+}
+#dark {
+  color: rgb(196, 187, 187);
+  cursor: pointer;
+}
+#display {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-end;
+  padding: 20px;
+  font-weight: 700;
+  font-size: 25px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+}
+.digits {
+  width: 100%;
+  background-color: rgb(216, 216, 216);
+  border-radius: 20px;
+}
+.keys {
+  display: flex;
+  justify-content: space-around;
+}
+.button {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  margin: 10px 0;
+  background-color: rgb(202, 199, 199);
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 800;
+  border-radius: 10px;
+}
+.zero {
+  width: 45%;
+}
+i {
+  font-size: 20px;
+  font-weight: 700;
+}
+.rd {
+  color: rgb(212, 0, 166);
+}
+.grn {
+  color: rgb(4, 0, 255);
+}
